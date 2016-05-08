@@ -141,7 +141,7 @@ UglifyJsParallelPlugin.prototype.onWorkerError = function(err) {
 
 UglifyJsParallelPlugin.prototype.disconnect = function() {
 	this.workers.forEach(function(worker) {
-		worker.disconnect();
+		worker.kill();
 	});
 	this.workers = [];
 };

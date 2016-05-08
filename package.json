@@ -1,6 +1,6 @@
 {
   "name": "webpack-uglify-parallel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Identical to standard uglify webpack plugin, with an option to build multiple files in parallel",
   "main": "index.js",
   "scripts": {
