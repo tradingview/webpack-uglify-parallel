@@ -21,9 +21,8 @@
     "url": "https://github.com/tradingview/webpack-uglify-parallel/issues"
   },
   "homepage": "https://github.com/tradingview/webpack-uglify-parallel#readme",
-  "devDependencies": {
+  "dependencies": {
     "uglify-js": "^2.6.2",
-    "webpack": "^1.13.0",
     "webpack-core": "^0.6.8"
   }
 }
