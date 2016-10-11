@@ -123,7 +123,7 @@ UglifyJsParallelPlugin.prototype.onWorkerMessage = function(msg) {
 	}, this);
 
 	if (msg.source) {
-		this.assets[msg.file] = this.assets[msg.file].__UglifyJsPlugin = this.options.sourceMap ?
+		this.assets[msg.file] = this.assets[msg.file].__UglifyJsPlugin = (this.options.sourceMap !== false) ?
 			new SourceMapSource(msg.source, msg.file, JSON.parse(msg.map), msg.input, msg.inputSourceMap) :
 			new RawSource(msg.source);
 	}
