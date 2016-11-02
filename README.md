@@ -1,6 +1,12 @@
 # webpack-uglify-parallel
 Identical to [standard uglify webpack plugin](https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin), with an option to build multiple files in parallel
 
+# Installation
+
+```bash
+npm install --save-dev webpack-uglify-parallel
+```
+
 # Usage
 In webpack.config.js:
 ```javascript
