@@ -1,4 +1,7 @@
 # webpack-uglify-parallel
+
+> This project is deprecated in favor of [official uglifyjs plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/), which now supports parallelization 
+
 Identical to [standard uglify webpack plugin](https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin), with an option to build multiple files in parallel
 
 # Installation
