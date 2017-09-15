@@ -82,7 +82,7 @@ UglifyJsParallelPlugin.prototype.apply = function(compiler) {
 			}
 		});
 		compilation.plugin('normal-module-loader', function(context) {
-			context.minimize = true;
+			context.minimize = options.minimize === undefined ? true : !!options.minimize;
 		});
 	});
 };
